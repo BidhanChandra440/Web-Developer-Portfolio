@@ -17,7 +17,7 @@
     color: #FD6E0A;
 }
 
-.header{
+header{
     background-image:url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -143,9 +143,11 @@ main{
     background-color: #FFF8F3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
+
 }
 .about-description{
     font-weight: 600px;
+    font-weight: bolder;
 }
 
 
@@ -157,5 +159,41 @@ main{
     flex-wrap: wrap;
     gap: 20px;
 }
+.about-container{
+    border: solid 1px black;
+}
 
 
+
+
+/* section 2nd */
+
+.section-title2{
+    text-align: center;
+}
+
+.section-description2{
+    text-align: center;
+}
+
+.skills{
+    margin-top: 130px;
+
+}
+
+.skills-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0 20px 10px rgba(13, 10, 10, 0.1);
+    border-radius: 10px;
+}
+.skill:hover{
+    box-shadow: 0 20px 50px rgba(33, 242, 29, 0.2);
+}
