@@ -65,7 +65,7 @@ nav ul{
     cursor: pointer;
 }
 .btn-primary:hover{
-    background-color: ghostwhite;
+    background-color: grey;
 }
 
 /* banner style  */
@@ -170,10 +170,13 @@ main{
 
 .section-title2{
     text-align: center;
+    font-size: 35px;
 }
 
 .section-description2{
     text-align: center;
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1)
 }
 
 .skills{
